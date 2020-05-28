@@ -1,4 +1,4 @@
-service: recommendation-ms
+service: hello-world-ms
 
 provider:
   name: aws
@@ -7,7 +7,7 @@ provider:
   region: eu-central-1
 
 functions:
-  candidateSubmission:
+  helloWorld:
     handler: dist/index.handler
     memorySize: 128
     events:
